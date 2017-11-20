@@ -41,9 +41,11 @@ export default class CustomDropdown extends Component {
     }
     
     render() {
-        <Outside tag="ul" className="dropdown-menu" onClickOutside={this.handleOutsideClick}>
-            <li>Items..</li>
-        </Outside>
+        return (
+            <Outside tag="ul" className="dropdown-menu" onClickOutside={this.handleOutsideClick}>
+                <li>Items..</li>
+            </Outside>
+        );
     }
 }
 ``` 
