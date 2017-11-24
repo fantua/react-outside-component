@@ -1,6 +1,6 @@
 {
   "name": "react-outside-component",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "React component for handling outside clicks",
   "main": "lib/index.js",
   "files": [
